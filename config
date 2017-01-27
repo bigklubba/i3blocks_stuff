@@ -54,9 +54,9 @@ interval=2
 # Memory usage
 #
 # The type defaults to "mem" if the instance is not specified.
-[memory]
-label=MEM
-interval=30
+#[memory]
+#label=MEM
+#interval=30
 
 #[memory]
 #label=SWAP
