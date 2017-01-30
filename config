@@ -120,6 +120,12 @@ interval=30
 label=
 command=/home/piem7783/.config/i3blocks/blocks/core_temp.py
 interval=10
+
+# Weather
+[my_weather]
+command=/home/piem7783/.config/i3blocks/blocks/weather.sh
+interval=120
+
 # Date Time
 #
 [time]
