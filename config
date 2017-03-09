@@ -115,6 +115,11 @@ label=
 #instance=1
 interval=30
 
+[my_battery]
+label=
+command=/home/piem7783/projects/my_stuff/i3blocks_blocks/i3bat_block/i3bat.py
+interval=10 
+
 # CORE temp
 [core_temp]
 label=
@@ -123,7 +128,7 @@ interval=10
 
 # Weather
 [my_weather]
-command=/home/piem7783/.config/i3blocks/blocks/weather.sh
+command=/home/piem7783/projects/my_stuff/i3blocks_blocks/weather_block/weather.py
 interval=120
 
 # Date Time
